@@ -7,7 +7,7 @@
 </style>
 <div class="flex flex-col justify-center items-center py-3">
     <div class="dark:bg-[var(--dark-green)] bg-[var(--light-green)] title sm:w-[300px] lg:w-[500px] py-1">
-        <h3>Yhteystiedot</h3>
+        <h3 class="px-3">Yhteystiedot</h3>
     </div>
 <h3 class="mt-3">Hyvinvointikeskus Luxus</h3>
 <p>Vastaanotto:</p>

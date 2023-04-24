@@ -22,3 +22,6 @@
 		<p>ladataan...</p>
 	{/each}
 </div>
+<svelte:head>
+	<title>Galleria</title>
+</svelte:head>
