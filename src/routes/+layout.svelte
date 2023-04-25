@@ -20,7 +20,7 @@
 	<svelte:fragment slot="header">
 		<Navbar />
 	</svelte:fragment>
-	<PageTransition key={data.url} duration={600}>
+	<PageTransition key={data.url} duration={400}>
 	<slot />
 </PageTransition>
 	

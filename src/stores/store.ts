@@ -1,4 +1,5 @@
 import { writable } from 'svelte/store';
+import type { Writable } from 'svelte/store';
 
 type StoreItem = {
         categoria:string;
@@ -13,8 +14,6 @@ type StoreItem = {
         id: string;
 }
 
-const CartItemStore : StoreItem[] = writable([
-     
-]);
+export const CartItemStore : Writable<StoreItem[]> = writable([]);
 
 export default CartItemStore

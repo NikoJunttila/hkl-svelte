@@ -1,0 +1,15 @@
+<script lang="ts">
+    	export let data : any;
+
+</script>
+
+<div class="min-h-[70vh] flex items-center justify-center gap-3 flex-col">
+<h2>tuotteiden id:</h2>
+{#each data.post.ordered_items as item }
+    <a href="/kauppa/slug/{item}">{item}</a>
+{/each}
+<h2>tilaus id: {data.post.id}</h2>
+<h2>hinta: {data.post.total}€</h2>
+<h2>tilauksen status: {data.post.status}</h2>
+
+</div>

@@ -1,19 +1,55 @@
 <script lang="ts">
     import CartItemStore from "../../../stores/store";
 
+    
 
     $: cartItems = $CartItemStore
 
-    $: total = cartItems.reduce((acc, item) => {
+    $: total = cartItems.reduce((acc : any, item : any) => {
   return acc + item.hinta;
 }, 0);
 
+function buyItems(){
+let randomNum = Math.floor(Math.random() * 99999999 -11111)
 
-  
+  fetch("https://hkl.fly.dev/create-checkout-session", {
+    method: "POST",
+    headers:{
+      "Content-Type":"application/json"
+    },
+    body: JSON.stringify({
+      items: cartItems,
+      name:name,
+      address:address,
+      email:email,
+      total:total,
+      phone:phoneNum,
+      orderId:randomNum
+    })
+  }).then(res => {
+    if(res.ok){
+     return res.json()
+    }
+    return res.json().then(json => Promise.reject(json))
+  }).then(({url}) => {
+    //sendInfo()
+  window.location = url
+}).catch(e => {
+  console.error(e.error)
+})
+}
+
+let email :string= ""
+let name : string = ""
+let address : string = ""
+let phoneNum : any;
+
+
 </script>
-{#if cartItems.length === 0}
-Lisää ensin tuotteita
-{:else}
+<div class="min-h-[70vh]">
+<!-- {#if cartItems.length === 0} -->
+<h2 class="text-center mt-4">Lisää ensin tuotteita</h2>
+<!-- {:else} -->
 <div class="flex flex-wrap items-center gap-3 py-4 justify-center flex-col">
 {#each cartItems as item }
 <a href="/kauppa/{item.categoria}/{item.id}">
@@ -24,14 +60,28 @@ Lisää ensin tuotteita
 </a> 
 {/each}
 <h2>yhteensä: {total}€</h2>
-<button on:click={() => console.log("kassa")} class="dark:bg-[#0f0448] bg-blue-400 hover:dark:bg-[var(--dark-green)] hover:bg-[var(--light-green)] mt-3">Siirry maksamaan</button>
+<p>name:</p>
+<input bind:value={name} type="text" name="name" required> 
+<p>email:</p>
+<input bind:value={email} type="text" name="email" required> 
+<p>address:</p>
+<input bind:value={address} type="text" name="address" required> 
+<p>phone number:</p>
+<input bind:value={phoneNum} type="text" name="phone" required> 
+<button on:click={() => buyItems()} class="dark:bg-[#0f0448] bg-blue-400 hover:dark:bg-[var(--dark-green)] hover:bg-[var(--light-green)] mt-3">Siirry maksamaan</button>
 </div>
-{/if}
+<!-- {/if} -->
+</div>
 
 
 
 
 <style>
+
+  input{
+    color:black;
+  }
+
    a{
       text-decoration: none !important; 
       color: inherit !important;

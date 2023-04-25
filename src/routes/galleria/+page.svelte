@@ -14,7 +14,7 @@
 <div class="grid grid-cols-1 place-items-center">
 	{#each galleria as photo}
 		<figure>
-			<img class="rounded mx-1" src={photo.img} alt="kuva">
+			<img loading="lazy" class="rounded mx-1" src={photo.img} alt="kuva">
 			<figcaption class="my-2 text-center">{photo.text}</figcaption>
 		</figure>
 	{:else}

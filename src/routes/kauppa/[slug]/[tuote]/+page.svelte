@@ -5,8 +5,6 @@
 
 	function update(){
 		CartItemStore.update((currentData) => {
-			console.log(data.post)
-			console.log(currentData)
 			return [data.post, ...currentData]
 		})
 	}

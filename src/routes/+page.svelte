@@ -68,7 +68,7 @@ let six = false;
 	<p class="pt-2">Ota yhteyttä ja kysy lisää!</p>
 </div>
 <div>
-	<img class="mt-3 drop-shadow-light dark:drop-shadow-dark rounded" src="https://i.imgur.com/IyYc81d.jpg" alt="angel2">
+	<img loading="lazy" class="mt-3 drop-shadow-light dark:drop-shadow-dark rounded" src="https://i.imgur.com/IyYc81d.jpg" alt="angel2">
 </div>
 	</div>
 	</section>
@@ -86,7 +86,7 @@ let six = false;
 		on:enterViewport={() => six = true}
 		on:exitViewport={() => six = false}
 		class="{six ? "fade-in" : "opacity-0" } w-[450px] rounded ml-[45%] flex">
-			<div><img src="https://www.hyvinvointikeskusluxus.com/susanna.jpg" alt="susanna" class="drop-shadow-light dark:drop-shadow-dark rounded" /> </div>
+			<div><img loading="lazy" src="https://www.hyvinvointikeskusluxus.com/susanna.jpg" alt="susanna" class="drop-shadow-light dark:drop-shadow-dark rounded" /> </div>
 			<div class="flex flex-col gap-2 pl-3 ml-2">
 				<p>Valolla ja rakkaudella, minulla on ilo palvella Sinua hyvinvointisi matkalla!</p>
 				<p>Susanna Höijer
