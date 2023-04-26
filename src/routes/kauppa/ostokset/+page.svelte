@@ -32,7 +32,6 @@ let randomNum = Math.floor(Math.random() * 99999999 -11111)
     }
     return res.json().then(json => Promise.reject(json))
   }).then(({url}) => {
-    //sendInfo()
   window.location = url
 }).catch(e => {
   console.error(e.error)
@@ -42,14 +41,15 @@ let randomNum = Math.floor(Math.random() * 99999999 -11111)
 let email :string= ""
 let name : string = ""
 let address : string = ""
-let phoneNum : any;
+let phoneNum : string = "";
 
+$: isFormValid =  email !== '' && name !== '' && address !== '' && phoneNum !== '';
 
 </script>
 <div class="min-h-[70vh]">
-<!-- {#if cartItems.length === 0} -->
+ {#if cartItems.length === 0}
 <h2 class="text-center mt-4">Lisää ensin tuotteita</h2>
-<!-- {:else} -->
+ {:else} 
 <div class="flex flex-wrap items-center gap-3 py-4 justify-center flex-col">
 {#each cartItems as item }
 <a href="/kauppa/{item.categoria}/{item.id}">
@@ -60,26 +60,30 @@ let phoneNum : any;
 </a> 
 {/each}
 <h2>yhteensä: {total}€</h2>
-<p>name:</p>
-<input bind:value={name} type="text" name="name" required> 
-<p>email:</p>
-<input bind:value={email} type="text" name="email" required> 
-<p>address:</p>
-<input bind:value={address} type="text" name="address" required> 
-<p>phone number:</p>
-<input bind:value={phoneNum} type="text" name="phone" required> 
-<button on:click={() => buyItems()} class="dark:bg-[#0f0448] bg-blue-400 hover:dark:bg-[var(--dark-green)] hover:bg-[var(--light-green)] mt-3">Siirry maksamaan</button>
+<form class="" >
+<p>nimi:</p>
+<input class="input variant-form-material"  bind:value={name} type="text" name="name" required> 
+<p>sähköposti:</p>
+<input class="input variant-form-material"  bind:value={email} type="text" name="email" required> 
+<p>osoite:</p>
+<input class="input variant-form-material"  bind:value={address} type="text" name="address" required> 
+<p>puh numero:</p>
+<input class="input variant-form-material"  bind:value={phoneNum} type="text" name="phone" required> <br>
+<button type="button" disabled={!isFormValid} on:click={() => buyItems()} class="hover:dark:bg-[#0f0448] hover:bg-blue-400 dark:bg-[var(--dark-green)] bg-[var(--light-green)] mt-3">Siirry maksamaan</button>
+</form>
 </div>
-<!-- {/if} -->
+ {/if} 
 </div>
 
 
 
 
 <style>
-
-  input{
-    color:black;
+  button:disabled{
+    background-color: rgb(170, 12, 12);
+  }
+  input:invalid {
+    border: 1px solid rgb(170, 12, 12);
   }
 
    a{

@@ -1,12 +1,17 @@
 <div class="wrapper relative h-[50vh]">
 <div class="center">
-    <h1>
+    <h1 class="title-font">
       Hyvinvointikeskus Luxus
       </h1>
    </div>
 </div>
 
 <style>
+
+.title-font{
+  font-family: 'Instrument Serif', serif;
+
+}
     .wrapper {
     background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
   background-size:cover;

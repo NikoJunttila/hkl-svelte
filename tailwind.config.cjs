@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	darkMode: 'class',
+	plugins: [
+		require('@tailwindcss/forms'),
+		// NOTE: Insert above the 'skeleton.cjs' plugin
+	],
 	content: ['./src/**/*.{html,js,svelte,ts}', require('path').join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')],
 	theme: {
 		extend: {

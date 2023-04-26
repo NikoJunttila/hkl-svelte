@@ -100,6 +100,8 @@ let six = false;
 </main>
 
 <style>
+
+	
 .fade-in {
 	-webkit-animation: fade-in 1.5s linear both;
 	        animation: fade-in 1.5s linear both;
