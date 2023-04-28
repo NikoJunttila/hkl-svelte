@@ -51,7 +51,7 @@ asiantuntemuksesta ja halusta auttaa.
 			use:viewport
 			on:enterViewport={() => (two = true)}
 			on:exitViewport={() => (two = false)}
-			class="{two ? 'fade-in' : 'opacity-0'} w-[400px] rounded ml-[50%] flex gap-6 flex-row-reverse"
+			class="{two ? 'fade-in' : 'opacity-0'} w-[400px] rounded lessMargin flex gap-6 flex-row-reverse"
 		>
 			<div>
 				<strong>Hyvinvointipalveluillani</strong> pyritään löytämään ydinsyyt miksi terveys tai
@@ -80,12 +80,14 @@ vaihtoehto etävastaanotto.
 				? 'fade-in'
 				: 'opacity-0'} w-[400px] rounded ml-[5%] xl:ml-[10%] grid place-items-center"
 		>
-			<div>
-				<a class="text-lg" href="/kauppa">Verkkokaupasta</a> voit ostaa hyvää oloa kuten kursseja, lahjakortteja,
-				hoitoja, hoitavia äänitteitä sekä uniikkeja käsintehtyjä Ailéakorun koruja.
-			</div>
-
-			<div class="mt-2">
+		<div>
+			<span
+				><strong>Palveluvalikoima, ajanvaraukset ja muu lisätieto löytyy <a href="/kauppa">kaupasta.</a></strong> 
+				Ole yhteydessä sähköpostilla mikäli haluat lisää tietoa palveluista.
+				Tai voit myös <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgSQCYgFwgGwBZcAcAzLgAwBM5A7OQIZWq3bYCMquVRERIAvkA">varata</a> ilmaisen 30 min. etäajan jossa kartoitamme mikä palvelu
+				Sinulle parhaiten sopisi.
+		</div>
+			<div class="mt-2 ">
 				<img
 					class="mt-3 drop-shadow-light dark:drop-shadow-dark max-w-[300px] max-h-[250px] rounded"
 					src="https://i.imgur.com/3BK0By2.jpg"
@@ -94,30 +96,32 @@ vaihtoehto etävastaanotto.
 			</div>
 		</div>
 	</section>
-	<section class="min-h-[30vh] flex items-center py-5">
+
+ 	<section class="min-h-[30vh] flex items-center py-5">
 		<div
 			use:viewport
 			on:enterViewport={() => (four = true)}
 			on:exitViewport={() => (four = false)}
-			class="{four ? 'fade-in' : 'opacity-0'} w-[400px] rounded ml-[50%]"
+			class="{four ? 'fade-in' : 'opacity-0'} w-[400px] rounded lessMargin"
 		>
-			<div>
+		<!-- 	<div>
 				<span
 					><strong>Palveluvalikoima, ajanvaraukset ja muu lisätieto löytyy <a href="/kauppa">kaupasta.</a></strong> 
 					Ole yhteydessä sähköpostilla mikäli haluat lisää tietoa palveluista.
 					Tai voit myös <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgSQCYgFwgGwBZcAcAzLgAwBM5A7OQIZWq3bYCMquVRERIAvkA">varata</a> ilmaisen 30 min. etäajan jossa kartoitamme mikä palvelu
 					Sinulle parhaiten sopisi.
-			</div>
-			<div>
+			</div> -->
+			<div> 
 				<img
 					loading="lazy"
 					class="mt-3 drop-shadow-light dark:drop-shadow-dark rounded"
-					src="https://i.imgur.com/IyYc81d.jpg"
+					src="https://i.imgur.com/TaYXXMo.jpg"
 					alt="angel2"
 				/>
 			</div>
 		</div>
-	</section>
+	</section> 
+
 	<section class="min-h-[30vh] flex items-center py-5">
 		<div
 			use:viewport
@@ -136,7 +140,7 @@ vaihtoehto etävastaanotto.
 			use:viewport
 			on:enterViewport={() => (six = true)}
 			on:exitViewport={() => (six = false)}
-			class="{six ? 'fade-in' : 'opacity-0'} w-[450px] rounded ml-[45%] flex"
+			class="{six ? 'fade-in' : 'opacity-0'} w-[450px] rounded lessMargin flex"
 		>
 			<div>
 				<img
@@ -163,6 +167,21 @@ vaihtoehto etävastaanotto.
 	div{
 		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	}
+
+	.lessMargin{
+		margin-left: 50%;
+	}
+	@media(max-width: 750px){
+		.lessMargin{
+		margin-left: 20%;
+		}
+	}
+	@media(max-width: 750px){
+		.lessMargin{
+		margin-left: 5%;
+		}
+	}
+
 	.bigFont{
 		font-size: 1.25rem !important;
 	}

@@ -10,8 +10,9 @@
 
 .title-font{
   font-family: 'Instrument Serif', serif;
+  font-style: italic;
   font-size: clamp(2.1875rem, 1.2946rem + 2.8571vw, 3.4375rem);
-
+  color:whitesmoke;
 }
     .wrapper {
     background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
