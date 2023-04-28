@@ -1,5 +1,8 @@
 <script lang="ts">
     import CartItemStore from "../../../stores/store";
+    import {toastStore } from '@skeletonlabs/skeleton';
+	import type { ToastSettings } from '@skeletonlabs/skeleton';
+
 
     
 
@@ -9,10 +12,16 @@
   return acc + item.hinta;
 }, 0);
 
+const t: ToastSettings = {
+	message: 'Jokin meni pieleen. tarkasta annetut infot. Jos ei onnistu silti niin ota yhteyttä spostilla tai soita',
+	background: "variant-filled-error",
+  autohide: false
+};
+
 function buyItems(){
 let randomNum = Math.floor(Math.random() * 99999999 -11111)
-
-  fetch("https://hkl.fly.dev/create-checkout-session", {
+//fetch("http://localhost:3001/create-checkout-session",
+   fetch("https://hkl.fly.dev/create-checkout-session", {
     method: "POST",
     headers:{
       "Content-Type":"application/json"
@@ -27,9 +36,12 @@ let randomNum = Math.floor(Math.random() * 99999999 -11111)
       orderId:randomNum
     })
   }).then(res => {
+    sessionStorage.setItem("link",JSON.stringify(randomNum))
     if(res.ok){
      return res.json()
     }
+  toastStore.trigger(t);
+    console.log("varmista tiedot")
     return res.json().then(json => Promise.reject(json))
   }).then(({url}) => {
   window.location = url
@@ -45,19 +57,32 @@ let phoneNum : string = "";
 
 $: isFormValid =  email !== '' && name !== '' && address !== '' && phoneNum !== '';
 
+
+function removeItem(index : number){
+		CartItemStore.update((cartItems) => {
+      cartItems.splice(index,1)
+			return cartItems
+		})
+	}
+
 </script>
 <div class="min-h-[70vh]">
+  <ol class="breadcrumb ml-5 mt-1">
+    <li class="crumb"><a href="/kauppa">Kauppa</a></li>
+    <li class="crumb-separator" aria-hidden>&rsaquo;</li>
+  </ol>
  {#if cartItems.length === 0}
 <h2 class="text-center mt-4">Lisää ensin tuotteita</h2>
  {:else} 
 <div class="flex flex-wrap items-center gap-3 py-4 justify-center flex-col">
-{#each cartItems as item }
-<a href="/kauppa/{item.categoria}/{item.id}">
-<div class="flex flex-col items-center justify-center">
+{#each cartItems as item, index }
+<div class="flex flex-col gap-2 items-center justify-center">
+  <!-- <a href="/kauppa/{item.categoria}/{item.id}">
+  </a>  -->
     <span>{item.tuote} {item.hinta}€</span>
     <img height="50" width="60" src="{item.kuva}" alt="tuote">
+    <button on:click={() => removeItem(index)}>poista</button>
 </div>
-</a> 
 {/each}
 <h2>yhteensä: {total}€</h2>
 <form class="" >
@@ -68,7 +93,7 @@ $: isFormValid =  email !== '' && name !== '' && address !== '' && phoneNum !== 
 <p>osoite:</p>
 <input class="input variant-form-material"  bind:value={address} type="text" name="address" required> 
 <p>puh numero:</p>
-<input class="input variant-form-material"  bind:value={phoneNum} type="text" name="phone" required> <br>
+<input class="input variant-form-material"  bind:value={phoneNum} type="number" name="phone" required> <br>
 <button type="button" disabled={!isFormValid} on:click={() => buyItems()} class="hover:dark:bg-[#0f0448] hover:bg-blue-400 dark:bg-[var(--dark-green)] bg-[var(--light-green)] mt-3">Siirry maksamaan</button>
 </form>
 </div>
@@ -111,6 +136,11 @@ $: isFormValid =  email !== '' && name !== '' && address !== '' && phoneNum !== 
  -webkit-user-select: none;
  touch-action: manipulation;
  will-change: transform;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 button:disabled {

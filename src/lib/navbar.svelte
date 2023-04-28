@@ -4,7 +4,7 @@
 
 <header class="bg-surface-100-800-token flex w-full justify-center items-center py-4 gap-2">
 	<div class="mr-auto">
-		<img src="/favicon.png" alt="icon" />
+		<a href="/"><img src="/favicon.png" alt="icon" /></a>
 	</div>
 	<a class="btn btn-sm variant-ghost-surface" href="/" rel="noreferrer">
 		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"

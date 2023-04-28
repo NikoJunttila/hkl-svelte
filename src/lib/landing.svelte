@@ -10,6 +10,7 @@
 
 .title-font{
   font-family: 'Instrument Serif', serif;
+  font-size: clamp(2.1875rem, 1.2946rem + 2.8571vw, 3.4375rem);
 
 }
     .wrapper {

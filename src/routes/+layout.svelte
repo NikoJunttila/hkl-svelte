@@ -11,6 +11,8 @@
 	import type { PageData } from './$types'
 	import PageTransition from '$lib/transition.svelte'
 
+	import { Toast} from '@skeletonlabs/skeleton';
+
 	export let data: PageData
 
 
@@ -19,6 +21,7 @@
 <AppShell >
 	<svelte:fragment slot="header">
 		<Navbar />
+		<Toast  />
 	</svelte:fragment>
 	<PageTransition key={data.url} duration={400}>
 	<slot />

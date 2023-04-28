@@ -1,13 +1,27 @@
 <script lang="ts">
 	export let data : any;
     import CartItemStore from "../../../../stores/store";
+	import {toastStore } from '@skeletonlabs/skeleton';
+	import type { ToastSettings } from '@skeletonlabs/skeleton';
+
+	const t: ToastSettings = {
+	message: 'Lisätty ostoskoriin',
+	background: "variant-filled-success"
+};
 
 
 	function update(){
+		toastStore.trigger(t);
 		CartItemStore.update((currentData) => {
 			return [data.post, ...currentData]
 		})
 	}
+
+
+  
+
+
+
 </script>
 <style>
 	  a{
