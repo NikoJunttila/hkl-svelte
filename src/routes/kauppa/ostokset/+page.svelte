@@ -21,7 +21,7 @@ const t: ToastSettings = {
 function buyItems(){
 let randomNum = Math.floor(Math.random() * 99999999 -11111)
 //fetch("http://localhost:3001/create-checkout-session",
-   fetch("https://hkl.fly.dev/create-checkout-session", {
+    fetch("https://hkl.fly.dev/create-checkout-session",  {
     method: "POST",
     headers:{
       "Content-Type":"application/json"
@@ -33,7 +33,8 @@ let randomNum = Math.floor(Math.random() * 99999999 -11111)
       email:email,
       total:total,
       phone:phoneNum,
-      orderId:randomNum
+      orderId:randomNum,
+      extratext:extratext
     })
   }).then(res => {
     sessionStorage.setItem("link",JSON.stringify(randomNum))
@@ -54,6 +55,7 @@ let email :string= ""
 let name : string = ""
 let address : string = ""
 let phoneNum : string = "";
+let extratext : string = "";
 
 $: isFormValid =  email !== '' && name !== '' && address !== '' && phoneNum !== '';
 
@@ -93,8 +95,11 @@ function removeItem(index : number){
 <p>osoite:</p>
 <input class="input variant-form-material"  bind:value={address} type="text" name="address" required> 
 <p>puh numero:</p>
-<input class="input variant-form-material"  bind:value={phoneNum} type="number" name="phone" required> <br>
-<button type="button" disabled={!isFormValid} on:click={() => buyItems()} class="hover:dark:bg-[#0f0448] hover:bg-blue-400 dark:bg-[var(--dark-green)] bg-[var(--light-green)] mt-3">Siirry maksamaan</button>
+<input class="input variant-form-material"  bind:value={phoneNum} type="number" name="phone" required>
+<p>lisätietoa:</p>
+<textarea class="input variant-form-material" bind:value={extratext}></textarea>
+<br>
+<button type="button" disabled={!isFormValid} on:click={() => buyItems()} class="hover:dark:bg-[#0f0448]  mb-10 hover:bg-blue-400 dark:bg-[var(--dark-green)] bg-[var(--light-green)] mt-3">Siirry maksamaan</button>
 </form>
 </div>
  {/if} 

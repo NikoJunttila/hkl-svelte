@@ -24,7 +24,7 @@
 			on:exitViewport={() => (one = false)}
 			class="{one
 				? 'fade-in'
-				: 'opacity-0'} max-w-[500px] rounded ml-[5%] xl:ml-[10%] flex items-center"
+				: 'opacity-0'} max-w-[500px] rounded ml-[5%] gap-5 xl:ml-[10%] flex flex-col lg:flex-row items-center"
 		>
 			<div>
 				
@@ -57,8 +57,7 @@ asiantuntemuksesta ja halusta auttaa.
 				<strong>Hyvinvointipalveluillani</strong> pyritään löytämään ydinsyyt miksi terveys tai
 				elämän muut eri osa-alueet ovat epätasapainossa.
 				<p class="pt-2">
-					Muutos alkaa Sinusta itsestäsi. Ja muistathan, että Sinä itse olet oman
-elämäsi Luxus.</p> <p>Voit valita tuletko vastanotolleni Sastamalaan tai onko Sinulle parempi
+					Muutos alkaa Sinusta itsestäsi.</p> <p class="pt-2">Voit valita tuletko vastanotolleni Sastamalaan tai onko Sinulle parempi
 vaihtoehto etävastaanotto.
 				</p>
 			</div>
@@ -104,19 +103,17 @@ vaihtoehto etävastaanotto.
 			on:exitViewport={() => (four = false)}
 			class="{four ? 'fade-in' : 'opacity-0'} w-[400px] rounded lessMargin"
 		>
-		<!-- 	<div>
+		 	<div>
 				<span
-					><strong>Palveluvalikoima, ajanvaraukset ja muu lisätieto löytyy <a href="/kauppa">kaupasta.</a></strong> 
-					Ole yhteydessä sähköpostilla mikäli haluat lisää tietoa palveluista.
-					Tai voit myös <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgSQCYgFwgGwBZcAcAzLgAwBM5A7OQIZWq3bYCMquVRERIAvkA">varata</a> ilmaisen 30 min. etäajan jossa kartoitamme mikä palvelu
-					Sinulle parhaiten sopisi.
-			</div> -->
+					> Ja muistathan, että Sinä itse olet oman
+elämäsi Luxus.
+			</div>
 			<div> 
 				<img
 					loading="lazy"
 					class="mt-3 drop-shadow-light dark:drop-shadow-dark rounded"
-					src="https://i.imgur.com/TaYXXMo.jpg"
-					alt="angel2"
+					src="https://i.imgur.com/tUuUTbr.jpg"
+					alt="susanna2"
 				/>
 			</div>
 		</div>
