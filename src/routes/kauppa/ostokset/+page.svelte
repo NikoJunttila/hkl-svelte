@@ -19,9 +19,9 @@ const t: ToastSettings = {
 };
 
 function buyItems(){
-let randomNum = Math.floor(Math.random() * 99999999 -11111)
-//fetch("http://localhost:3001/create-checkout-session",
-    fetch("https://hkl.fly.dev/create-checkout-session",  {
+let randomNum = Math.floor(Math.random() * 9999999999 -1111111)
+fetch("http://localhost:3001/create-checkout-session",
+    /*  fetch("https://hkl.fly.dev/create-checkout-session", */  {
     method: "POST",
     headers:{
       "Content-Type":"application/json"

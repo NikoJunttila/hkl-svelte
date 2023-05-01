@@ -30,16 +30,9 @@
 			class="absolute min-w-[19ch] text-center left-0 cursor-pointer translate-x-[-25px] p-2 rounded bg-surface-50-900-token"
 		>
 			<a href="/info/ajanvaraus"><li class="hover:bg-surface-200-700-token">Ajanvaraus</li></a>
-			<a href="/info/hinnasto"><li class="hover:bg-surface-200-700-token">Hinnasto</li></a>
 			<a href="/info/susanna"><li class="hover:bg-surface-200-700-token">Susanna</li></a>
-			<a href="/info/hyvinvointipalvelut"
-				><li class="hover:bg-surface-200-700-token">Hyvinvointipalvelut</li></a
-			>
-			<a href="/info/tapahtumat"><li class="hover:bg-surface-200-700-token">Tapahtumat</li></a>
 			<a href="/info/yhteystiedot"><li class="hover:bg-surface-200-700-token">Yhteystiedot</li></a>
-			<a href="/info/tietosuoja"
-				><li class="hover:bg-surface-200-700-token">Tietosuojaseloste</li></a
-			>
+			<a href="/info/tietosuoja"><li class="hover:bg-surface-200-700-token">Tietosuojaseloste</li></a>
 		</ul>
 	</div>
 	<div class="ml-auto mr-2">
@@ -57,7 +50,7 @@
 
 	.showMoreBtn:hover,
 	.showMoreBtn:focus {
-		outline: 4px solid var(--dark-green);
+		outline: 1px solid var(--dark-green);
 	}
 	ul {
 		width: 100px;

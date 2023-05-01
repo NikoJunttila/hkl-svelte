@@ -57,7 +57,7 @@ asiantuntemuksesta ja halusta auttaa.
 				<strong>Hyvinvointipalveluillani</strong> pyritään löytämään ydinsyyt miksi terveys tai
 				elämän muut eri osa-alueet ovat epätasapainossa.
 				<p class="pt-2">
-					Muutos alkaa Sinusta itsestäsi.</p> <p class="pt-2">Voit valita tuletko vastanotolleni Sastamalaan tai onko Sinulle parempi
+					Muutos alkaa Sinusta itsestäsi. Kun tarvitset apua ihmissuhteiden/ parisuhteen, rakkauden, talouden, työn, terveyden, itseluottamuksen, stressin, trauman käsittelyssä.  </p> <p class="pt-2">Voit valita tuletko vastanotolleni Sastamalaan tai onko Sinulle parempi
 vaihtoehto etävastaanotto.
 				</p>
 			</div>

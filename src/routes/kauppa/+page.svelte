@@ -125,10 +125,4 @@ a{
         <img alt="Alennukset / Tarjoukset"src="https://i.imgur.com/oClBNIy.jpg">
     </div>
     </a>
-<a href="kauppa/Alennukset">
-<div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
-    <h3>Alennukset / Tarjoukset</h3>
-    <img alt="Alennukset / Tarjoukset"src="https://i.imgur.com/93yXqmo.jpg">
-</div>
-</a>
 </section>
