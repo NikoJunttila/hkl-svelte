@@ -17,4 +17,6 @@
 <h2>tilaus id: {data.post.id}</h2>
 <h2>hinta: {data.post.total}€</h2>
 <h2>tilauksen status: {data.post.status}</h2>
+ajanvaraus: <a href="https://holvi.com/shop/hyvinvointikeskusluxus/section/hoidot-kaltsilassa-etahoidot/">holvi.com/shop/hyvinvointikeskusluxus/section/hoidot-kaltsilassa-etahoidot/</a>
+
 </div>
