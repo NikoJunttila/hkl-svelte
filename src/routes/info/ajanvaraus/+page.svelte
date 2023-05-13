@@ -10,5 +10,5 @@
     <p>Mikäli sinulla on lahjakortti / lahjakortti koodi / käytössä hierontapassin ilmainen hieronta - niiden varaus tehdään tekstiviestillä.</p>
     <p>Hoitojen tilaus, osto ja ajanvaraus: </p>
     <br>
-    <a href="https://holvi.com/shop/hyvinvointikeskusluxus/section/hoidot-kaltsilassa-etahoidot/">holvi.com/shop/hyvinvointikeskusluxus/section/hoidot-kaltsilassa-etahoidot/</a>
+    <a href="https://booksalon.fi/hyvinvointikeskus-luxus">booksalon.fi/hyvinvointikeskus-luxus</a>
 </div>

@@ -74,4 +74,7 @@
 		text-decoration: none !important;
 		color: inherit !important;
 	}
+	a:hover{
+		opacity: 0.9;
+	}
 </style>
