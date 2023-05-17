@@ -18,7 +18,6 @@
     "” Tiedän miltä tuntuu kunnioittaa ja arvostaa itseäni. Arvostan ja kunnioitan itseäni.”",
     "” Tiedän kuinka rakastaa ilman menettämisen pelkoa.”",
   "  ” Annan anteeksi päästämällä irti kivusta ja kaunasta ja teen tilaa rakkaudelle.”",
-    "” Ansaitsemallani rahalla voin tehdä hyviä asioita itselleni ja muille.”",
 ];
 let quoteToShow : string
 
