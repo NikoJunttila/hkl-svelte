@@ -30,7 +30,9 @@ jonka valitset tueksi ja oppaaksi matkallesi.</p>
     <p>• ThetaHealing® DNA Manifesting and Abudance practioner, 2018</p>
     <p>• ThetaHealing® Growing Your Relationships I Practioner, 2018</p>
     <p>• ThetaHealing® DNA Dig Deeper Practioner</p>
-    <p class="pb-5">• ThetaHealing® You and the Earth, 2021</p>
+    <p>• ThetaHealing® You and the Earth, 2021</p>
+    <p class="pb-5">• Theta Healing® Sinä ja Luoja, 2023 </p>
+
     <h4 class="bold">Messujen järjestäjänä</h4>
     <p>• Hyvinvointimessut Kokkolassa 2010</p>
     <p>• Hyvinvointimessut Kiuruvedellä 2012</p>

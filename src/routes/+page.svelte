@@ -142,7 +142,7 @@ elämäsi Luxus.
 			<div>
 				<img
 					loading="lazy"
-					src="https://www.hyvinvointikeskusluxus.com/susanna.jpg"
+					src="https://i.imgur.com/xkSzG30.jpg"
 					alt="susanna"
 					class="drop-shadow-light dark:drop-shadow-dark rounded"
 				/>
