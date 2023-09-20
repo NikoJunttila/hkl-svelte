@@ -1,21 +1,29 @@
 <script lang="ts">
     import CartItemStore from "../../../stores/store";
     import {toastStore } from '@skeletonlabs/skeleton';
-	import type { ToastSettings } from '@skeletonlabs/skeleton';
-
-
-    
+	  import type { ToastSettings } from '@skeletonlabs/skeleton';
+    export let data : any;
 
     $: cartItems = $CartItemStore
 
     $: total = cartItems.reduce((acc : any, item : any) => {
   return acc + item.hinta;
 }, 0);
+  $: newTotal = total * alennusKerroin
 
 const t: ToastSettings = {
 	message: 'Jokin meni pieleen. tarkasta annetut infot. Jos ei onnistu silti niin ota yhteyttä spostilla tai soita',
 	background: "variant-filled-error",
   autohide: false
+};
+const y: ToastSettings = {
+	message: 'Väärä alennus koodi. tarkasta että on kirjoitettu oikein',
+	background: "variant-filled-error",
+  autohide: false
+};
+const success: ToastSettings = {
+	message: 'Alennus koodi lisätty',
+	background: "variant-filled-success"
 };
 
 function buyItems(){
@@ -31,7 +39,7 @@ let randomNum = Math.floor(Math.random() * 99999999999 - 1111111)
       name:name,
       address:address,
       email:email,
-      total:total,
+      total:newTotal.toFixed(2),
       phone:phoneNum,
       orderId:randomNum,
       extratext:extratext
@@ -66,7 +74,24 @@ function removeItem(index : number){
 			return cartItems
 		})
 	}
-
+let alennus : string = ""
+let alennusKerroin : number = 1
+function alennusKoodi() {
+    if (!checkData()){
+      toastStore.trigger(y);
+    }else{
+    toastStore.trigger(success);
+    }
+  }
+  function checkData(): boolean {
+  for (const element of data.data) {
+    if (element.text === alennus) {
+      alennusKerroin = 1 - (element.sale / 100);
+      return true;
+    }
+  }
+  return false;
+}
 </script>
 <div class="min-h-[70vh]">
   <ol class="breadcrumb ml-5 mt-1">
@@ -86,7 +111,7 @@ function removeItem(index : number){
     <button on:click={() => removeItem(index)}>poista</button>
 </div>
 {/each}
-<h2>yhteensä: {total}€</h2>
+<h2>yhteensä: {newTotal.toFixed(2)}€</h2>
 <form class="" >
 <p>nimi:</p>
 <input class="input variant-form-material"  bind:value={name} type="text" name="name" required> 
@@ -99,6 +124,9 @@ function removeItem(index : number){
 <p>lisätietoa:</p>
 <textarea class="input variant-form-material" bind:value={extratext}></textarea>
 <br>
+<p>Alennus koodi:</p>
+<input class="input variant-form-material" bind:value={alennus}  type="text" name="alennus">
+<button type="button" on:click={alennusKoodi}>lisää alennus</button>
 <button type="button" disabled={!isFormValid} on:click={() => buyItems()} class="hover:dark:bg-[#0f0448]  mb-10 hover:bg-blue-400 dark:bg-[var(--dark-green)] bg-[var(--light-green)] mt-3">Siirry maksamaan</button>
 </form>
 </div>
