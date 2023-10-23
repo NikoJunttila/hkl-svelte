@@ -1,14 +1,22 @@
-<script>
+<script lang>
 	import Landing from '$lib/landing.svelte';
 	import Contact from '$lib/contact.svelte';
 	import viewport from '../stores/useViewportAction';
 	import Quote from '$lib/quote.svelte';
+	import {toastStore } from '@skeletonlabs/skeleton';
 	let one = false;
 	let two = false;
 	let three = false;
 	let four = false;
 	let five = false;
 	let six = false;
+
+	const t = {
+	message: 'Kiitos uutiskirjeen tilauksesta',
+	background: "variant-filled-success",
+  autohide: false
+};
+
 </script>
 
 <svelte:head>
@@ -156,7 +164,14 @@ elämäsi Luxus.
 			</div>
 		</div>
 	</section>
-
+<div class="flex justify-center items-center ">
+	<form class="w-64 sm:w-[600px] flex justify-center items-center flex-col gap-3 bg-primary-50-900-token rounded-md py-10" target="_blank" method="post" action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f">
+	<p class="bigFont">Tilaa ilmainen hoitava aktivointi</p>
+	<span class="flex">Email:<input class="ml-2 input variant-form-material" type="text" name="email" placeholder="Sähköposti" value=""></span>	
+	
+		<button on:click={() => toastStore.trigger(t)} class="btn  bg-secondary-50-900-token" type="submit" value="Liity" >Tilaa</button>
+	</form>
+</div>
 	<Contact />
 </main>
 
