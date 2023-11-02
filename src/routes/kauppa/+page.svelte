@@ -83,22 +83,10 @@ a{
     <img alt="kirjat" src="https://i.imgur.com/0x569G5.jpg">
 </div>
 </a>
-<a href="kauppa/Nuotio ja luontoretriitit">
-<div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
-    <h3>Nuotio ja luontoretriitit</h3>
-    <img alt="Parantajakoulutus" src="https://i.imgur.com/qcLfTrO.jpg">
-</div>
-</a>
 <a href="kauppa/Gua sha hoidot">
 <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
     <h3>Gua sha hoidot</h3>
     <img alt="Gua sha hoidot" src="https://i.imgur.com/s7qEwFo.jpg">
-</div>
-</a>
-<a href="kauppa/Tilaisuudet">
-<div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
-    <h3>Tilaisuudet</h3>
-    <img alt="Tilaisuudet" src="https://i.imgur.com/Czctmae.jpg">
 </div>
 </a>
 <a href="kauppa/Valmennukset ja kurssit">
@@ -119,10 +107,5 @@ a{
    <img  alt="Nuotio - ja luontoretriitit tuotekategoria" src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80">
 </div>
 </a> -->
-<a href="kauppa/Lahjakortit">
-    <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
-        <h3>Lahjakortit</h3>
-        <img alt="Alennukset / Tarjoukset"src="https://i.imgur.com/oClBNIy.jpg">
-    </div>
-    </a>
+
 </section>
