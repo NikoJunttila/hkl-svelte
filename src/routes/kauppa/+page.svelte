@@ -107,7 +107,7 @@ a{
         <img alt="Kehohoidot" src="https://cdn.holvi.com/media/poolimage.image/2022/12/29/e6738562c3b2f1a21b04d5c28168cfb9eab65b5f.jpg">
     </div>
     </a>
-    <a href="kauppa/Katselmukset ">
+    <a href="kauppa/Katselmukset">
         <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
             <h3>Katselmukset</h3>
             <img alt="Katselmukset" src="https://cdn.holvi.com/media/poolimage.image/2022/07/09/620a8b3f5f7cec0a49e2faabf04386c977f66bba.jpg">
