@@ -59,12 +59,7 @@ a{
 	<li class="crumb-separator" aria-hidden>&rsaquo;</li>
 </ol>
 <section class="grid-container pt-[5vh] pb-[25vh] px-2">
-    <a href="kauppa/Hoidot Kaltsilassa">
-<div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light card">
-    <h3>Hoidot sastamalassa</h3>
-    <img src="https://cdn.holvi.com/media/poolimage.image/2023/03/13/4bad4841c881c25c171935d88628618e6d365192.jpg" alt="hoidotkaltsila">
-</div>
-</a>
+
 <a href="kauppa/Etähoidot">
 <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
         <h3>Etähoidot</h3>
@@ -99,6 +94,12 @@ a{
 <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
     <h3>Etäpalvelut</h3>
     <img alt="Etäpalvelut" src="https://i.imgur.com/ixbmkH4.jpg">
+</div>
+</a>
+<a href="kauppa/tuotteet">
+<div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
+   <h3>Tuotteet</h3>
+   <img  alt="Tuotteet" src="https://i.imgur.com/ogawCQc.jpg">
 </div>
 </a>
 <a href="kauppa/Kehohoidot">
