@@ -96,7 +96,7 @@ a{
     <img alt="Etäpalvelut" src="https://i.imgur.com/ixbmkH4.jpg">
 </div>
 </a>
-<a href="kauppa/tuotteet">
+<a href="kauppa/Tuotteet">
 <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
    <h3>Tuotteet</h3>
    <img  alt="Tuotteet" src="https://i.imgur.com/ogawCQc.jpg">
@@ -114,7 +114,6 @@ a{
             <img alt="Katselmukset" src="https://cdn.holvi.com/media/poolimage.image/2022/07/09/620a8b3f5f7cec0a49e2faabf04386c977f66bba.jpg">
         </div>
         </a>
-    Katselmukset
 <!-- <a href="kauppa/retriitit">
 <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
    <h3>Nuotio - ja luontoretriitit</h3>
