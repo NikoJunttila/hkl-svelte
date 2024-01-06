@@ -72,7 +72,7 @@
             <br>
             <p>Muutoksen matka 12 viikon premium valmennus HINTA JA MAKSUVAIHTOEHDOT</p>
             
-            <p>Kertamaksu 2500 €+ alv 24% 4 x maksuerää 625 €+alv 24 % + laskutuslisä yht. 10 % 8 x maksuerää 312,50 +alv 24% + laskutuslisä yht. 10 % Tai valitsema maksuerä pienimmän summan mukaisesti 200€+alv 24% + laskutuslisä yht. 10%</p>
+            <p>Kertamaksu 2500 €+ alv 24% <br> 4 x maksuerää 625 €+alv 24 % + laskutuslisä yht. 10 % <br> 8 x maksuerää 312,50 +alv 24% + laskutuslisä yht. 10 % <br> Tai valitsema maksuerä pienimmän summan mukaisesti 200€+alv 24% + laskutuslisä yht. 10%</p>
         </div>
         </div>
     </main>

@@ -5,7 +5,6 @@ export const load = (async () => {
 	const response = await fetch(endpoint);
 	const data = await response.json();
     const single = data[0].text
-    console.log(single)
     return {
         text : single
     };
