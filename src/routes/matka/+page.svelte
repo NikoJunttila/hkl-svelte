@@ -73,6 +73,9 @@
             <p>Muutoksen matka 12 viikon premium valmennus HINTA JA MAKSUVAIHTOEHDOT</p>
             
             <p>Kertamaksu 2500 €+ alv 24% <br> 4 x maksuerää 625 €+alv 24 % + laskutuslisä yht. 10 % <br> 8 x maksuerää 312,50 +alv 24% + laskutuslisä yht. 10 % <br> Tai valitsema maksuerä pienimmän summan mukaisesti 200€+alv 24% + laskutuslisä yht. 10%</p>
+            <br>
+            <p>NYT ON TOISTAISEKSI VIELÄ VOIMASSA PILOTTIHINTA, JOKA ON 800€ +alv 24% Pilottihinta on voimassa vielä 10 henkilölle. (Maksu vaihtoehtoja myös tässä hinnassa. Kysy lisää)
+                Kun haluat saada aikaan muutoksia, kysy lisää valmennuksestani ja katsotaan yhdessä olisiko se sopiva sinulle. </p>
         </div>
         </div>
     </main>
