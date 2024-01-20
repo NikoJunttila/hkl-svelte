@@ -60,10 +60,10 @@ a{
 </ol>
 <section class="grid-container pt-[5vh] pb-[25vh] px-2">
 
-<a href="kauppa/Etähoidot">
+<a href="kauppa/Hoidot">
 <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
-        <h3>Etähoidot</h3>
-        <img alt="etähoidot" src="https://i.imgur.com/a0wE3Ty.jpg" >
+        <h3>Hoidot</h3>
+        <img alt="hoidot" src="https://i.imgur.com/a0wE3Ty.jpg" >
     </div>
 </a>
 <a href="kauppa/Hoitavat äänitteet">
@@ -102,12 +102,12 @@ a{
    <img  alt="Tuotteet" src="https://i.imgur.com/ogawCQc.jpg">
 </div>
 </a>
-<a href="kauppa/Kehohoidot">
-    <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
-        <h3>Kehohoidot</h3>
-        <img alt="Kehohoidot" src="https://cdn.holvi.com/media/poolimage.image/2022/12/29/e6738562c3b2f1a21b04d5c28168cfb9eab65b5f.jpg">
-    </div>
-    </a>
+<!-- <a href="kauppa/Kehohoidot"> -->
+<!--     <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card"> -->
+<!--         <h3>Kehohoidot</h3> -->
+<!--         <img alt="Kehohoidot" src="https://cdn.holvi.com/media/poolimage.image/2022/12/29/e6738562c3b2f1a21b04d5c28168cfb9eab65b5f.jpg"> -->
+<!--     </div> -->
+<!--     </a> -->
     <a href="kauppa/Katselmukset">
         <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
             <h3>Katselmukset</h3>

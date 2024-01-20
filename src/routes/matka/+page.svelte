@@ -4,7 +4,8 @@
 <main class="ml-2 py-10 flex flex-col justify-center align-middle ">
     <div class="grid place-items-center pb-5">
         <div class="max-w-[100ch] space">
-
+<h1 class="text-lg">Muutoksen matka 3kk premium valmennus</h1>
+      <br>
             <p>Miltä kuulostaisi, jos voisit kolmen kuukauden kuluttua kokea ja tuntea uskomattomia muutoksia itsessäsi?</p>
             
             <p>*Saada oman sisäisen voiman ja osaat asettaa rajat ja sanoa "ei" ilman, että se tuntuu epämiellyttävältä.</p>
@@ -50,7 +51,9 @@
 
             <p>Tälle valmennus matkalle annan sinulle myös täyden takuun 12 viikon yhteistyömme ajaksi. Takaan, että tämä selkeä ja systemaattinen valmennus ohjelma auttaa sinut 12 viikossa epätasapainosta selkeyteen ja oman voimasi löytämiseen ja itsesi rakastamiseen.</p>
             
-            <p>Kun haluat tietää tästä kaikesta lisää ja miettiä olisiko tämä valmennus Sinulle sopiva, niin varaa tästä <a href="https://calendly.com/info-hyvinvointikeskusluxus/alkukartoitus?fbclid=PAAaa18Bd0K79hH6CitIaLo5eF7ZPpKv285ehjDF8ox9mX4XXBrVfqwtOgkZU&month=2024-01" class="bigger">ILMAINEN alkukartoitus</a> info aika, niin jutellaan lisää ja katsotaan olisiko tämä matka sinulle sopiva.</p>
+            <p>Kun haluat tietää tästä kaikesta lisää ja miettiä olisiko tämä valmennus Sinulle sopiva, niin varaa tästä
+        <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIA7AIYAcADBAgCysRcCsENgE4AZv2EQGANgBGARn4gANCCY0acTHAxMANgGVo8JGFoESAXQC%2BNoA" class="bigger">ILMAINEN alkukartoitus</a> info aika, niin jutellaan lisää ja katsotaan olisiko tämä matka sinulle sopiva.</p>
+      
             
             <p>Kartoitus ei sido sinua mihinkään, mutta voi antaa sinulle ison harppauksen eteenpäin omaan muutokseesi.</p>
             
@@ -68,7 +71,8 @@
             
             <p>Varaa oma alkukartoitus nyt. Käydään yhdessä läpi sinun haasteet ja tavoitteet ja sitten vasta katsotaan sopiiko tämä valmennus sinulle ja olisitko valmis sitoutumaan siihen.</p>
             
-            <p>Varaa <a class="bigger" href="https://calendly.com/info-hyvinvointikeskusluxus/alkukartoitus?fbclid=PAAaa18Bd0K79hH6CitIaLo5eF7ZPpKv285ehjDF8ox9mX4XXBrVfqwtOgkZU&month=2024-01">ilmainen ALKUKARTOITUS TÄSTÄ</a></p>
+            <p>Varaa
+        <a class="bigger" href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIA7AIYAcADBAgCysRcCsENgE4AZv2EQGANgBGARn4gANCCY0acTHAxMANgGVo8JGFoESAXQC%2BNoA">ilmainen ALKUKARTOITUS TÄSTÄ</a></p>
             <br>
             <p>Muutoksen matka 12 viikon premium valmennus HINTA JA MAKSUVAIHTOEHDOT</p>
             

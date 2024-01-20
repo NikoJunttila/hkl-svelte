@@ -13,9 +13,9 @@
 <footer class="py-2 flex flex-col gap-2 justify-center items-center dark:bg-[var(--dark-green)] bg-[var(--light-green)]">
     <h3 >Info</h3>
     <h4>Peruutusehto</h4>
-    <p>Alle 24 tuntia peruutettu ajanvaraus - veloitetaan ajanvarauksesta normaali hoitohinta. Peruutukset tulee siis tehdä 24 h ennen varattua aikaa. Peruuttamattomat, unohdetut ajat tai peruutukset, jotka tehty alle 24 h ennen hoitoa veloitetaan täysimääräisesti. Uutta aikaa ei voi varata seuraavalle 24 tunnille.</p>
+    <p>Alle 24 tuntia peruutettu ajanvaraus - veloitetaan ajanvarauksesta normaali hoitohinta. Peruutukset tulee siis tehdä 24 h ennen varattua aikaa. Peruuttamattomat, unohdetut ajat tai peruutukset, jotka tehty alle 24 h ennen hoitoa veloitetaan täysimääräisesti.</p>
     <p>Ajanvaraus nettiajanvarauksella, tekstiviestillä, soittamalla tai sähköpostilla.</p>  
-    <p>Ajanvaraustilauksen yhteydessä anna nimi, osoitteesi ja sähköpostiosoite sekä toive haluamasi hoitoajan tai palvelun kellonajasta.Etähoitotilauksissa lasku lähetetään sähköpostilla. Yritys ei toimita laskua paperisena.</p>
+    <p>Ajanvaraustilauksen yhteydessä anna nimi, osoitteesi ja sähköpostiosoite sekä toive haluamasi hoitoajan tai palvelun kellonajasta. Yritys ei toimita laskua paperisena.</p>
     <p>Hyvinvointikeskus Luxus / Y-tunnus: 1773403-5 / Susanna Höijer / Puh. 040 7249 887 / Sähköposti: info.hyvinvointikeskusluxus@gmail.com</p>
     <p>www.hyvinvointikeskusluxus.com</p>
    <div class="flex gap-2">
