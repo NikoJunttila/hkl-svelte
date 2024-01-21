@@ -165,7 +165,7 @@ elämäsi Luxus.
 		</div>
 	</section>
 <div class="flex justify-center items-center ">
-	<form class="w-64 sm:w-[600px] p-4 flex justify-center items-center flex-col gap-3 bg-primary-50-900-token rounded-md py-10" target="_blank" method="post" action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f">
+	<form id="tilaus" class="w-64 sm:w-[600px] p-4 flex justify-center items-center flex-col gap-3 bg-primary-50-900-token rounded-md py-10" target="_blank" method="post" action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f">
 	<p class="bigFont">Haluatko oppia rakastamaan itseäsi? </p>
       <p>
 * Saat maksuttoman minivalmennuksen, jolla vapautat tärkeitä esteitä itsesi rakastamisen tieltä ja lisäksi saat minivalmennuksen mukana 'Rakkauden lataus" äänitteen - kun liityt Luxusen valokirjeen lukijaksi.

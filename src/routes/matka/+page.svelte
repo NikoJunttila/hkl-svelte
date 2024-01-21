@@ -74,6 +74,8 @@
             <p>Varaa
         <a class="bigger" href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIA7AIYAcADBAgCysRcCsENgE4AZv2EQGANgBGARn4gANCCY0acTHAxMANgGVo8JGFoESAXQC%2BNoA">ilmainen ALKUKARTOITUS TÄSTÄ</a></p>
             <br>
+        <a class="bigger" href="/#tilaus">Tästä voit tilata maksuttoman mini valmennuksen</a>
+    <br>  
             <p>Muutoksen matka 12 viikon premium valmennus HINTA JA MAKSUVAIHTOEHDOT</p>
             
             <p>Kertamaksu 2500 €+ alv 24% <br> 4 x maksuerää 625 €+alv 24 % + laskutuslisä yht. 10 % <br> 8 x maksuerää 312,50 +alv 24% + laskutuslisä yht. 10 % <br> Tai valitsema maksuerä pienimmän summan mukaisesti 200€+alv 24% + laskutuslisä yht. 10%</p>
