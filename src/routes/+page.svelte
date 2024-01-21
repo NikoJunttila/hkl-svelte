@@ -165,11 +165,19 @@ elämäsi Luxus.
 		</div>
 	</section>
 <div class="flex justify-center items-center ">
-	<form class="w-64 sm:w-[600px] flex justify-center items-center flex-col gap-3 bg-primary-50-900-token rounded-md py-10" target="_blank" method="post" action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f">
-	<p class="bigFont">Tilaa ilmainen hoitava aktivointi</p>
+	<form class="w-64 sm:w-[600px] p-4 flex justify-center items-center flex-col gap-3 bg-primary-50-900-token rounded-md py-10" target="_blank" method="post" action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f">
+	<p class="bigFont">Haluatko oppia rakastamaan itseäsi? </p>
+      <p>
+* Saat maksuttoman minivalmennuksen, jolla vapautat tärkeitä esteitä itsesi rakastamisen tieltä ja lisäksi saat minivalmennuksen mukana 'Rakkauden lataus" äänitteen - kun liityt Luxusen valokirjeen lukijaksi.
+<br>
+* Luxusen valokirjeen lukijat saavat sähköpostiinsa eheyttävää, hoitavaa ja positiivista sisältöä sekä harjoituksia itsensä rakastamiseen ja tasapainoa aktivoinneilla.
+<br><br>
+<span class="bigFont">Kyllä haluan liittyä Luxusen valokirjeen lukijaksi ja saada maksuttoman minivalmennuksen!</span>
+<br><br>
+      </p>
 	<span class="flex">Email:<input class="ml-2 input variant-form-material" type="text" name="email" placeholder="Sähköposti" value=""></span>	
-	
 		<button on:click={() => toastStore.trigger(t)} class="btn  bg-secondary-50-900-token" type="submit" value="Liity" >Tilaa</button>
+* Antamalla yhteystietosi hyväksyt samalla, että sinulle voidaan jatkossa lähettää sähköpostia. Voit poistua listalta koska tahansa. 
 	</form>
 </div>
 	<Contact />
