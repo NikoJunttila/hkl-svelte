@@ -11,9 +11,9 @@
 			><path fill="currentColor" d="M4 21V9l8-6l8 6v12h-6v-7h-4v7H4Z" /></svg
 		>
 	</a>
-	<a class="btn btn-sm variant-ghost-surface" href="/kauppa" rel="noreferrer"> Kauppa </a>
-	<a class="btn btn-sm variant-ghost-surface" href="/matka">Muutoksen matka</a>
-	<a class="btn btn-sm variant-ghost-surface" href="/galleria"> Galleria </a>
+	<a class="btn btn-sm variant-ghost-surface h-12" href="/kauppa" rel="noreferrer"> Kauppa </a>
+	<a class="btn btn-sm variant-ghost-surface h-12" href="/matka">Muutoksen <br> matka</a>
+	<a class="btn btn-sm variant-ghost-surface h-12 hidden sm:block" href="/galleria"> Galleria </a>
 	<div class="relative">
 		<button class="btn btn-sm variant-ghost-surface showMoreBtn">
 			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 16 16"
@@ -30,6 +30,7 @@
 		<ul
 			class="absolute min-w-[19ch] text-center left-0 cursor-pointer translate-x-[-25px] p-2 rounded bg-surface-50-900-token"
 		>
+			<a class="hover:bg-surface-200-700-token sm:hidden" href="/galleria"> Galleria </a>
 			<a href="/info/ajanvaraus"><li class="hover:bg-surface-200-700-token">Ajanvaraus</li></a>
 			<a href="/info/susanna"><li class="hover:bg-surface-200-700-token">Susanna</li></a>
 			<a href="/info/yhteystiedot"><li class="hover:bg-surface-200-700-token">Yhteystiedot</li></a>
