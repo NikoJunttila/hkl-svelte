@@ -13,15 +13,10 @@
 	function update(){
 		toastStore.trigger(t);
 		CartItemStore.update((currentData) => {
+			data.post.alennusHinta = data.post.hinta
 			return [data.post, ...currentData]
 		})
 	}
-
-
-  
-
-
-
 </script>
 <style>
 	  a{

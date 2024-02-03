@@ -3,7 +3,7 @@ import type { Writable } from 'svelte/store';
 import { localStorageStore } from '@skeletonlabs/skeleton';
 
 
-type StoreItem = {
+export type StoreItem = {
         categoria:string;
         hinta: number;
         tuote: string;
@@ -14,8 +14,9 @@ type StoreItem = {
         createdAt: string;
         updatedAt: string;
         id: string;
+        alennusHinta : number;
 }
 //export const CartItemStore : Writable<StoreItem[]> = writable([]);
-export const CartItemStore : Writable<StoreItem[]> = localStorageStore('tuotteet',[]);
+export const CartItemStore : Writable<StoreItem[]> = localStorageStore('tuotteet2',[]);
 
 export default CartItemStore
