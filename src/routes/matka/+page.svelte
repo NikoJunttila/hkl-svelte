@@ -76,12 +76,12 @@
             <br>
         <a class="bigger" href="/#tilaus">Tästä voit tilata maksuttoman mini valmennuksen</a>
     <br>  
-            <p>Muutoksen matka 12 viikon premium valmennus HINTA JA MAKSUVAIHTOEHDOT</p>
-            
-            <p>Kertamaksu 2500 €+ alv 24% <br> 4 x maksuerää 625 €+alv 24 % + laskutuslisä yht. 10 % <br> 8 x maksuerää 312,50 +alv 24% + laskutuslisä yht. 10 % <br> Tai valitsema maksuerä pienimmän summan mukaisesti 200€+alv 24% + laskutuslisä yht. 10%</p>
-            <br>
-            <p>NYT ON TOISTAISEKSI VIELÄ VOIMASSA PILOTTIHINTA, JOKA ON 800€ +alv 24% Pilottihinta on voimassa vielä 10 henkilölle. (Maksu vaihtoehtoja myös tässä hinnassa. Kysy lisää)
-                Kun haluat saada aikaan muutoksia, kysy lisää valmennuksestani ja katsotaan yhdessä olisiko se sopiva sinulle. </p>
+    <img class="my-2 rounded-lg" src="https://i.imgur.com/fwZsbNC.jpeg" alt="muutoksen matka"/>
+    Valmennuksen hinta on 2000€ (sis.alv 24%) maksetaan kokonaisuudessaan ennen valmennuksen aloitusta. 
+<br><br>
+Mahdollisuus myös maksaa erissä. Erämaksuihin lisätään yht. 10% lisä<br>
+Kysy lisää erämaksu mahdollisuudesta kartoituspuhelussa. 
+
         </div>
         </div>
     </main>
