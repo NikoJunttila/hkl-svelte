@@ -78,12 +78,6 @@ a{
     <img alt="kirjat" src="https://i.imgur.com/0x569G5.jpg">
 </div>
 </a>
-<a href="kauppa/Gua sha hoidot">
-<div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
-    <h3>Gua sha hoidot</h3>
-    <img alt="Gua sha hoidot" src="https://i.imgur.com/s7qEwFo.jpg">
-</div>
-</a>
 <a href="kauppa/Valmennukset ja kurssit">
 <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
     <h3>Valmennukset ja kurssit</h3>
