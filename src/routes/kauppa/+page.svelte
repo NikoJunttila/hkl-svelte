@@ -104,8 +104,8 @@ a{
 <!--     </a> -->
     <a href="kauppa/Katselmukset">
         <div class="bg-[var(--light-green)] dark:bg-[var(--dark-green)] hover:drop-shadow-dark dark:hover:drop-shadow-light  card">
-            <h3>Katselmukset</h3>
-            <img alt="Katselmukset" src="https://cdn.holvi.com/media/poolimage.image/2022/07/09/620a8b3f5f7cec0a49e2faabf04386c977f66bba.jpg">
+            <h3 class="!text-xl">Muutoksen matka valmennusohjelma</h3>
+            <img alt="Katselmukset" src="https://i.imgur.com/ei3XFPc.jpeg">
         </div>
         </a>
 <!-- <a href="kauppa/retriitit">
