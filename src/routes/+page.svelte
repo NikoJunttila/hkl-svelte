@@ -36,19 +36,15 @@
 		>
 			<div>
 				
-					<h2>Tervetuloa eheytymisen matkalle</h2>
-					<p class="bigFont">yhdessä löytämään työvälineet hyvinvointia edistävään,
-tasapainoisempaan ja onnellisempaan elämään.
-	Hyvinvointikeskus Luxusen hoidot ja
-valmennukset ovat syntyneet pitkästä vankasta työkokemuksesta,
-asiantuntemuksesta ja halusta auttaa.
+					<h2>Valoisasti tervetuloa omalle muutosmatkallesi</h2>
+					<p class="bigFont">-  näkyväksi omalle itsellesi, löytämään oma vahvuutesi sekä avaamaan korkein tietoisuustaajuutesi jolloin myös  fyysinen hyvinvointisi voi alkaa kukoistaa.
 </p>
 				
 			</div>
 			<div>
 				<img
 					class="drop-shadow-light dark:drop-shadow-dark min-w-[250px] min-h-[250px] rounded ml-2"
-					src="https://i.imgur.com/KpWECR8.jpg"
+					src="https://i.imgur.com/9TTYcth.jpeg"
 					alt="hkl"
 				/>
 			</div>
@@ -59,23 +55,38 @@ asiantuntemuksesta ja halusta auttaa.
 			use:viewport
 			on:enterViewport={() => (two = true)}
 			on:exitViewport={() => (two = false)}
-			class="{two ? 'fade-in' : 'opacity-0'} w-[400px] rounded lessMargin flex gap-6 flex-row-reverse"
+			class="{two ? 'fade-in' : 'opacity-0'} w-[400px] rounded lessMargin flex gap-6 flex-col"
 		>
+		<div>
+			<img
+				class="mt-3 drop-shadow-light dark:drop-shadow-dark max-w-[300px] max-h-[250px] rounded"
+				src="https://i.imgur.com/851DS8t.jpeg"
+				alt="senjankuva"
+			/>
+		</div>
 			<div>
-				<strong>Hyvinvointipalveluillani</strong> pyritään löytämään ydinsyyt miksi terveys tai
-				elämän muut eri osa-alueet ovat epätasapainossa.
-				<p class="pt-2">
-					Muutos alkaa Sinusta itsestäsi. Kun tarvitset apua ihmissuhteiden/ parisuhteen, rakkauden, talouden, työn, terveyden, itseluottamuksen, stressin, trauman käsittelyssä.  </p> <p class="pt-2">Voit valita tuletko vastanotolleni Sastamalaan tai onko Sinulle parempi
-vaihtoehto etävastaanotto.
-				</p>
-			</div>
-			<div>
+				Hyvinvointikeskus Luxusen hoidot ja valmennukset ovat syntyneet vankalla kokemuksella ja ammattitaidolla yli kahdenkymmenen vuoden ajalta.
+
+				Hoidot sisältävät vahvaa hoitavaa valoa ja energiataajuutta joka on yksi  muutoksen työvälineistä.
+				
+				Palveluista löytyy seuraavat etäohjelmat:
+				<br>
+				🟣 Muutoksen matka valmennusohjelma joka on 3 kk rakkausmatka itseesi.
+				<br>
+				🟣 Syvällisellä Theta Healing matkalla työstetään ydinsyitä alitajunnan taajuudella jolloin henkinen ja fyysinen tila pääsee paremmin eheytymään.
+				<br>
+				🟣 Pääset Valosiivet ohjelmalla lempeästi kokemaan enkeleiden luomat vahvat energiahoidot ja viestit. 
+				<br>
+				🟣 Navigointi ohjelma on hienovärähteistä energiahoitoa joka avaa sinua ja näyttää sinulle eteenpäin menemisen reitit.
+				<br>
+				🟣 Tiennäyttäjä ohjelma avaa elämän ilon ja vapauttaa pelkoja silloin kun jokin sairaus on tullut opettamaan asioita.
 				<img
-					class="mt-3 drop-shadow-light dark:drop-shadow-dark max-w-[300px] max-h-[250px] rounded"
-					src="https://i.imgur.com/lPPhbfX.jpg"
-					alt="senjankuva"
-				/>
+				class="mt-3 drop-shadow-light dark:drop-shadow-dark max-w-[300px] max-h-[250px] rounded"
+				src="https://i.imgur.com/iD3SVYo.jpeg"
+				alt="idk"
+			/>
 			</div>
+			
 		</div>
 	</section>
 	<section class="min-h-[30vh] flex items-center py-5">
@@ -88,11 +99,13 @@ vaihtoehto etävastaanotto.
 				: 'opacity-0'} w-[400px] rounded ml-[5%] xl:ml-[10%] grid place-items-center"
 		>
 		<div>
-			<span
-				><strong>Palveluvalikoima, ajanvaraukset ja muu lisätieto löytyy <a href="/kauppa">kaupasta.</a></strong> 
-				Ole yhteydessä sähköpostilla mikäli haluat lisää tietoa palveluista.
-				Tai voit myös <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgSQCYgFwgGwBZcAcAzLgAwBM5A7OQIZWq3bYCMquVRERIAvkA">varata</a> ilmaisen 30 min. etäajan jossa kartoitamme mikä palvelu
-				Sinulle parhaiten sopisi.
+			Pääset omille muutoksen matkoille kolmella tavalla:
+			<br>
+			1. Varaa ilmainen kartoitusaika jossa katsotaan mikä palvelu olisi sinulle sopivin.
+			<br>
+			2. Osta palvelu suoraan kaupasta jolloin pääset sen jälkeen varaamaan ajan hoitoon. 
+			<br>
+			3. Kun 3 kk Muutoksen matka valmennusohjelma kutsuu sinua, varaa ensin siihen oma tutustumisaika täältä.
 		</div>
 			<div class="mt-2 ">
 				<img
@@ -112,15 +125,17 @@ vaihtoehto etävastaanotto.
 			class="{four ? 'fade-in' : 'opacity-0'} w-[400px] rounded lessMargin"
 		>
 		 	<div>
-				<span
-					> Ja muistathan, että Sinä itse olet oman
-elämäsi Luxus.
+				🟣 KAUPASTA:
+				löytyy lisäksi minivalmennuksia sekä kuunneltavia äänitteitä.
+				
+				Ja lisäksi kaikille jotka haluavat avata oven maailmankaikkeuden ihmeille, niin
+				on nyt myös tarjolla Metsätonttu Alfredin tarinoiden matkat jotka ohjaavat sinut luonnon lempeään maailmaan. Alfredin tarinoihin pääset kaupan kautta jonne tulee aina uusi tarina sitä mukaan kun energiamatkoja syntyy. 
 			</div>
 			<div> 
 				<img
 					loading="lazy"
 					class="mt-3 drop-shadow-light dark:drop-shadow-dark rounded"
-					src="https://i.imgur.com/tUuUTbr.jpg"
+					src="https://i.imgur.com/PLnX1Ch.jpeg"
 					alt="susanna2"
 				/>
 			</div>
@@ -150,7 +165,7 @@ elämäsi Luxus.
 			<div>
 				<img
 					loading="lazy"
-					src="https://i.imgur.com/xkSzG30.jpg"
+					src="https://i.imgur.com/tUuUTbr.jpg"
 					alt="susanna"
 					class="drop-shadow-light dark:drop-shadow-dark rounded"
 				/>
@@ -179,6 +194,11 @@ elämäsi Luxus.
 		<button on:click={() => toastStore.trigger(t)} class="btn  bg-secondary-50-900-token" type="submit" value="Liity" >Tilaa</button>
 * Antamalla yhteystietosi hyväksyt samalla, että sinulle voidaan jatkossa lähettää sähköpostia. Voit poistua listalta koska tahansa. 
 	</form>
+</div>
+<div class="max-w-[500px] mx-auto py-5">
+	Lääketieteellinen vastuuvapaus lauseke:
+<br>
+Tällä sivustolla annettuja tietoja tai yrityksen palveluita ei ole tarkoitettu diagnosoimaan, hoitamaan tai parantamaan ketään. Sivun tiedot ja palvelut eivät korvaa terveydenhuollon ammattilaisen kanssa tapahtuvaa vastaanottoa tai konsultaatiota, eikä niitä pidä tulkita lääketieteellisenä neuvona. Nämä sivut ja Hyvinvointikeskus Luxusen palvelut on tarkoitettu lisäämään Sinulle tietoisuutta ja ymmärrystä henkisestä ja fyysisestä hyvinvoinnista, tasapainosta ja eheytymisestä ja siten tukemaan Sinua muutoksesi ja hyvinvointisi matkalla. Jos Sinulla on jokin henkistä tai fyysistä terveyttä uhkaava asia jossa tarvitset terveydenhuollon neuvoja käänny heidän puoleen. Hyvinvointikeskus Luxus ei ole vastuussa näiden palveluiden ja hoitojen mahdollisista haittavaikutuksista terveydellesi. 
 </div>
 	<Contact />
 </main>
