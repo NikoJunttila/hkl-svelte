@@ -101,11 +101,11 @@
 		<div>
 			Pääset omille muutoksen matkoille kolmella tavalla:
 			<br>
-			1. Varaa ilmainen kartoitusaika jossa katsotaan mikä palvelu olisi sinulle sopivin.
+			1. Varaa ilmainen <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIAbACxMAcAzEwAwBMPA7DwCG-GkIYMAjDSb92EdiAA0IITRpxMcDEIA2AZWjwkYWgRIBdAL7WgA">kartoitusaika</a> jossa katsotaan mikä palvelu olisi sinulle sopivin.
 			<br>
-			2. Osta palvelu suoraan kaupasta jolloin pääset sen jälkeen varaamaan ajan hoitoon. 
+			2. Osta palvelu suoraan <a href="/kauppa">kaupasta</a> jolloin pääset sen jälkeen varaamaan ajan hoitoon. 
 			<br>
-			3. Kun 3 kk Muutoksen matka valmennusohjelma kutsuu sinua, varaa ensin siihen oma tutustumisaika täältä.
+			3. Kun 3 kk Muutoksen matka valmennusohjelma kutsuu sinua, varaa ensin siihen oma <a href="https://booksalon.fi/hyvinvointikeskus-luxus?booking-state=N4IgzgpgTgbglgYwgYQPYDsAuEAemwgBcA2qJLIhAJIAmRIA7AIYAcADBAgCysRcCsENgE4AZv2EQGANgBGARn4gANCCY0acTHAxMANgGVo8JGFoESAXQC%2BNoA">tutustumisaika täältä.</a>
 		</div>
 			<div class="mt-2 ">
 				<img
@@ -182,14 +182,11 @@
 <div class="flex justify-center items-center ">
 	<form id="tilaus" class="w-64 sm:w-[600px] p-4 flex justify-center items-center flex-col gap-3 bg-primary-50-900-token rounded-md py-10" target="_blank" method="post" action="https://archive.cardu.com/mailinglist/d2951a3fb48b486d576ac1a9fab11d0b73aac32f">
 	<p class="bigFont">Haluatko oppia rakastamaan itseäsi? </p>
-      <p>
-* Saat maksuttoman minivalmennuksen, jolla vapautat tärkeitä esteitä itsesi rakastamisen tieltä ja lisäksi saat minivalmennuksen mukana 'Rakkauden lataus" äänitteen - kun liityt Luxusen valokirjeen lukijaksi.
+		<p>* Kun liityt Luxusen uutiskirjeen tilaajaksi saat lahjaksi Kiitollisuuden meditaatio äänitteen.</p>
+		<p>* Luxusen uutiskirjeen lukijat saavat sähköpostiinsa positiivista energiaa sisältäviä kirjeitä joissa voi olla lyhyitä hoito-ohjelmia, aktivointeja ja harjoituksia hyvinvoinnin tasapainon ylläpitämiseen. Sekä tietysti saat ensimmäisenä tietää Luxusen extra tarjoukset.</p>
+		<p>* Uutiskirje on ilmainen eikä sido sinua mihinkään. Voit milloin tahansa lopettaa tilauksen mikäli tunnet kirjeet tarpeettomiksi. </p>
+		<p>* <span class="font-bold">Kyllä haluan liittyä</span> Luxusen uutiskirjeen tilaajaksi ja saada maksuttoman Kiitollisuuden meditaation.</p>
 <br>
-* Luxusen valokirjeen lukijat saavat sähköpostiinsa eheyttävää, hoitavaa ja positiivista sisältöä sekä harjoituksia itsensä rakastamiseen ja tasapainoa aktivoinneilla.
-<br><br>
-<span class="bigFont">Kyllä haluan liittyä Luxusen valokirjeen lukijaksi ja saada maksuttoman minivalmennuksen!</span>
-<br><br>
-      </p>
 	<span class="flex">Email:<input class="ml-2 input variant-form-material" type="text" name="email" placeholder="Sähköposti" value=""></span>	
 		<button on:click={() => toastStore.trigger(t)} class="btn  bg-secondary-50-900-token" type="submit" value="Liity" >Tilaa</button>
 * Antamalla yhteystietosi hyväksyt samalla, että sinulle voidaan jatkossa lähettää sähköpostia. Voit poistua listalta koska tahansa. 
